@@ -1,3 +1,5 @@
+## Note: I forked this and made a bunch of changes. It should still be legacy compatible, but I make no promises.
+
 # nodejs module to make POST file uploads
 
 Module allows to send POST requests with `Content-type: multipart/form-data`
@@ -42,7 +44,8 @@ var request = new multiparter.request(http, {
     host: "bobrik.name",
     port: 80,
     path: "/test2.php",
-    method: "POST"
+    method: "POST",
+    boundary: "MyBoundary"
 });
 
 // add some plain params here

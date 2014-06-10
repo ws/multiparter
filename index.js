@@ -1,1 +1,1 @@
-module.exports = require("./lib/multiparter");
+module.exports.request = require('./lib/multiparter_request.js');

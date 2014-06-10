@@ -1,22 +1,27 @@
 {
-    "name": "multiparter",
-    "version": "0.1.4",
-    "description": "multipart/form-data POST request maker for nodejs",
-    "keywords": ["multipart/form-data", "multipart", "form-data", "POST"],
-    "author": "Ian Babrou <ibobrik@gmail.com>",
-    "engines": [
-        "node"
-    ],
-    "dependencies": {
-        "async": "0.1.15",
-        "underscore": "1.2.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/Sonetica/multiparter.git"
-    },
-    "directories": {
-        "lib": "./lib"
-    },
-    "main": "./index"
+  "name": "multiparter",
+  "version": "0.1.4",
+  "description": "multipart/form-data POST request maker for nodejs",
+  "keywords": [
+    "multipart/form-data",
+    "multipart",
+    "form-data",
+    "POST"
+  ],
+  "author": "Will Smidlein <will@willsmidlein.com>",
+  "engines": [
+    "node"
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "lodash": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ws/multiparter.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./index"
 }
